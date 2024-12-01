@@ -308,31 +308,29 @@ footer img {
     /**********************Topo*/
     .conteudo-topo {
         width: 90%;
-        flex-direction: row;
 
-        border: 1px solid red;
+        display: flex;
+        justify-content: space-between;
+        flex-flow: row wrap;
+        align-items: center;
+
     }
 
 
     .logo img {
         width: 60%;
-        border: 1px solid red;
+
     }
 
     nav {
-        width: 35%;
-        gap: 15px;
-        align-items: center;
+        width: 40%;
+        gap: 10px;
+
         border-top: none;
-        border: 1px solid red;
-
-
-
     }
 
     nav a {
         font-size: 18px;
-        border: 1px solid red;
         
     }
 
